@@ -9,7 +9,7 @@ export default function Items(props){
         return (
         <section className="flex-auto w-1/5 h-96 m-10 mb-10 ">
             <article className="flex-auto bg-black p-3 ">
-                <img src={val.img} className="object-cover"/>
+                <img src={val.img} alt={val.title} className="object-cover"/>
                 <div className="">
                     <header className="flex justify-between">
                     <h1 className="flex-auto grow capitalize">{val.title}</h1>
