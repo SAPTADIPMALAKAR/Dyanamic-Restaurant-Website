@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom' 
 import Headpart from './Headerpart'
 import Home from './Home'
 import Footer from './footer'
