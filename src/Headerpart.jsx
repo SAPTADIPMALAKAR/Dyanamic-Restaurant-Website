@@ -11,14 +11,16 @@ const Headpart = () => {
 
         <section className="bg-black text-white pb-5">
           <header className='flex justify-between items-center'>
+            <Link to="/">
             <div className='flex justify-start'>
             <h1 className='flex-auto mx-6 font-Qwitcher text-7xl'>Eatery</h1>
             </div>
-            <div className='flex justify-evenly'>
+            </Link>
+           <div className='flex justify-evenly'>
             <Link to="/" className='flex-auto mx-9 px-9 font-semibold font-Montserrat'>Home</Link>
             <Link to="Menu" className='flex-auto mx-9 px-9 font-semibold font-Montserrat'>Menu</Link>
+            <Link to="About"className='flex-auto mx-9 px-9 font-semibold font-Montserrat'>About us</Link>
             <Link to="Contact"className='flex-auto mx-9 px-9 font-semibold font-Montserrat'>Contact</Link>
-            <Link to="About"className='flex-auto mx-9 px-9 font-semibold font-Montserrat'>About</Link>
             </div>
             <div className='flex justify-evenly gap-x-8 mr-12'>
             <a href="https://www.instagram.com/"><FaInstagram className="object-contain h-6 w-6" /></a>

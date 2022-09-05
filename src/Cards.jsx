@@ -13,7 +13,7 @@ export default function Cards(){
         <div className="bg-black p-3 max-w-xl rounded overflow-hidden shadow-lg">
   <img className="w-full" src={pizza} alt="Pizza" />
   <div className="bg-black  px-6 py-4">
-    <div className="font-bold text-white text-xl mb-2">The Coldest Sunset</div>
+    <div className="font-bold text-white text-xl mb-2">The Classic Pizza</div>
     <p className="text-white text-base">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
     </p>
@@ -27,7 +27,7 @@ export default function Cards(){
 <div className="bg-black p-3 max-w-xl rounded overflow-hidden shadow-lg">
   <img className="w-full" src={pancakes} alt="Sunset in the mountains" />
   <div className="px-6 py-4">
-    <div className=" text-white font-bold text-xl mb-2">The Coldest Sunset</div>
+    <div className=" text-white font-bold text-xl mb-2">The Honey Drip Pancakes</div>
     <p className="text-white text-base">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
     </p>
@@ -41,7 +41,7 @@ export default function Cards(){
 <div className="bg-black p-3 max-w-xl rounded overflow-hidden shadow-lg">
   <img className="w-full" src={shakes} alt="Sunset in the mountains" />
   <div className="px-6 py-4">
-    <div className="text-white font-bold text-xl mb-2">The Coldest Sunset</div>
+    <div className="text-white font-bold text-xl mb-2">The Oreo Dream</div>
     <p className="text-white text-base">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
     </p>
